@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+        <meta charset="UTF-8">
+        
+        <!-- Optimize SEO (Facebook, Google+, LinkedIn) start -->
+        <title>Guess, Vote & Win</title>
+        <meta name="description" content="155 characters of message matching text with a call to action goes here" />
+        <meta property="og:title" content="Title which you want to be shown on the FB, G+, Linked In" />
+        <meta property="og:description" content="Description which you want to be shown on the FB, G+, Linked In" />
+        <meta property="og:image" content="http://www...... url of the image you want to see on the FB, G+, Linked In" />
+        <!-- Optimize SEO end -->
+
+        <!-- Optimize TwitterCard start -->
+        <meta name="twitter:card" content="Summary mesage which you want to be shown on Twitter" />
+        <meta name="twitter:url" content="http://......." />
+        <meta name="twitter:title" content="Title which you want to be shown on Twitter" />
+        <meta name="twitter:description" content="Description which you want to be shown on Twitter" />
+        <meta name="twitter:image" content="https://...........jpg" />
+        <!-- Optimize TwiiterCard end -->
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron text-center">
+                <img class="featuredimg" src="images/1.jpg" width="100%">
+            </div>
+        </div>
+        <div class="container" >
+            <div class="row restaurants">             
+                <div class="col-md-4" >
+                    <img src='images/2.jpg' width="100%">
+                    <h4>Miss Molly's</h4>
+                    <p style="font-style: italic;">Time is usually a leisure beverage, best consumed with a decadent cake, 10 classic combinations.</p>
+                </div>
+                <div class="col-md-4" >
+                    <img src='images/3.jpg' width="100%">
+                    <h4 >Working Title</h4>
+                    <p style="font-style: italic;">Inspired to enhance the flavours of the teas with the choice of food and a relaxing environment.</p>
+                </div>
+                <div class="col-md-4 ">
+                    <img src='images/4.jpg' width="100%">
+                    <h4>House of Commons</h4>
+                    <p style="font-style: italic;">From beautiful aromatic floral Rose to Earl Grey tea, here are six sets carefully put together.</p>
+                </div>
+            </div>
+            
+            <!-- SOCIAL BUTTONS -->
+               <div class="row restaurants" >
+                    <div class="col-md-4">
+                        <div id="DIV_1">
+                            <a href="#" title="#" id="A_2"></a>
+                            <a href="#" title="#" id="A_3"></a>
+                            <a href="#" title="#" id="A_4"></a>
+                        </div>
+                    </div>
+              </div>
+            <!-- SOCIAL BUTTONS -->
+            
+            <div class="row restaurants">
+                <div class="col-md-4" >
+                    <img src='images/5.jpg' width="100%">
+                    <h4>Jasper's Pantry</h4>
+                    <p style="font-style: italic;">True to the motto: Lovingly Baked - share comfort food with buddies in your favourite hangout.</p>
+                </div>
+                <div class="col-md-4" >
+                    <img src='images/6.jpg' width="100%">
+                    <h4 >Carpenter & Cook</h4>
+                    <p style="font-style: italic;">Six set options bringing together all-time favourites and some new treats with Dilmah Tea.</p>
+                </div>
+                <div class="col-md-4 ">
+                    <img src='images/7.jpg' width="100%">
+                    <h4>The Bark Cafe</h4>
+                    <p style="font-style: italic;">Some of our favourite dishes, paired with the types of well-brewed teas most customers are familiar with.</p>
+                </div>
+            </div>
+            <div class="row restaurants">
+                <div class="col-md-4" >
+                    <img src='images/8.jpg' width="100%">
+                    <h4>Tea Party Cafe</h4>
+                    <p style="font-style: italic;">From Spiced Ceylon Chai Samosas to Acai Berry with Pomegranate Blue Berry Cheese, indulge here.</p>
+                </div>
+                <div class="col-md-4" >
+                    <img src='images/9.jpg' width="100%">
+                    <h4 >Do.Main Bakery</h4>
+                    <p style="font-style: italic;">Everything is inspired by the oven, and we have a mix of savoury and sweet with nine options.</p>
+                </div>
+                <div class="col-md-4 ">
+                    <img src='images/10.jpg' width="100%">
+                    <h4>Doi Chaang</h4>
+                    <p style="font-style: italic;">Two different sets with options for you, enjoy wraps and desserts for High Tea.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="panel-body user-form">
+                <form id="registration-form" action="email.php" method="post" class="form-horizontal">
+                    <div class="form-group">
+                        <label  for="name" class="col-md-3 control-label">My vote goes to: </label>
+                            <div class="col-md-7">
+                                <select class="form-control" style="color:black;" id="votes" name="votes">
+                                    <option value="0">-----</option>
+                                    <option value="Miss Molly's">Miss Molly's</option>
+                                    <option value="Working Title">Working Title</option>
+                                    <option value="House of Commons">House of Commons</option>
+                                    <option value="Jasper's Pantry">Jasper's Pantry</option>
+                                    <option value="Carpenter & Cook">Carpenter & Cook</option>
+                                    <option value="The Bark Cafe">The Bark Cafe</option>
+                                    <option value="Tea Party Cafe">Tea Party Cafe</option>
+                                    <option value="Do.Main Bakery">Do.Main Bakery</option>
+                                    <option value="Doi Chaang">Doi Chaang</option>
+                                </select>
+                            </div>
+                    </div>
+                    <div class="form-group">
+                        <label  for="name" class="col-md-3 control-label">My Name:</label>
+                            <div class="col-md-7">
+                                <input type="text" name="name" class="form-control">
+                            </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name" class="col-md-3 control-label">NRIC:</label>
+                            <div class="col-md-7">
+                                <input type="text" name="nric" class="form-control">
+                            </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name" class="col-md-3 control-label">Email:</label>
+                            <div class="col-md-7">
+                                <input type="text" name="email" class="form-control">
+                            </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name" class="col-md-3 control-label">Contact Number:</label>
+                            <div class="col-md-7">
+                                <input type="text" name="contact" class="form-control">
+                            </div>
+                    </div>
+                    <div align="center">          
+                        <input type="submit" value="Submit" class="btn btn-default btn-submit">
+                    </div>
+                </form> 
+            </div>
+        </div>
+        <div class="container">
+            <div align="center" class="text-footer">
+                <p>Winners will be announced in July!</p>
+                <p>For more Dilmah High Tea Action around the world, visit: Tea Gastronomy Facebook page.</p>
+                <p>*Terms and conditions apply. Votes submited only from 20th - 28th June 2015 will be accepted. Information<br>
+                provided at time of submission must be correct. Winners will be informed via email/contact number provided.</p>
+                <p>This contest is part of Dilmah Cafe Week with OpenRice. For more queries, email us at <br>marketinginfo@openrice.com.sg or PM us on OpenRiceSG Facebook page.</p>
+                <p>This promotion/announcement is in no way sponsored, endorsed od administered by, or associated with<br>
+                Facebook. You understand that you are providing information to OpenRice Singapore and not to Facebook.<br>
+                The information you provide will only be used for sending subscribers company updates and announcements.</p>
+                <p><a href="#" style="color:white;">Privacy Policy</a> | <a href="#" style="color:white;">Terms of Service</a></p>
+            </div>
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        
+    </body>
+</html>

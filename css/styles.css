@@ -1,0 +1,108 @@
+.restaurants {
+    background-color:#007c85;
+    margin-left: 60px;
+    margin-right: 60px;
+    color:white;
+    padding-left: 35px;
+    padding-top: 40px;
+    padding-right: 35px;
+}
+
+.user-form {
+    font-size: 18px;
+    background-color:#007c85;
+    margin-left: 60px;
+    margin-right: 60px;
+    color:white;
+    padding-top: 50px;
+}
+
+.btn-submit {
+    color:#007c85;
+    font-size: 18px;
+}
+
+.text-footer {
+    background-color:#007c85;
+    margin-left: 60px;
+    margin-right: 60px;
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+
+
+/*Buttons*/
+
+#DIV_1 {
+  box-sizing: border-box;
+  color: rgb(51, 51, 51);
+  height: 150px;
+  position: fixed;
+  right: 0px;
+  top: 350px;
+  width: 50px;
+  z-index: 99999;
+  perspective-origin: 25px 75px;
+  transform-origin: 25px 75px;
+  border: 0px none rgb(51, 51, 51);
+  font: normal normal normal normal 16px/22.8571434020996px 'Open Sans', sans-serif;
+  outline: rgb(51, 51, 51) none 0px;
+}
+/*#DIV_1*/
+
+#A_2 {
+  background-position: 0px 0px;
+  box-sizing: border-box;
+  color: rgb(27, 36, 47);
+  display: block;
+  height: 50px;
+  text-decoration: none;
+  width: 50px;
+  perspective-origin: 25px 25px;
+  transform-origin: 25px 25px;
+  background: rgba(0, 0, 0, 0) url(http://www.opensnap.com/sg/race/images/facebook.png) repeat scroll 0px 0px / auto padding-box border-box;
+  border: 0px none rgb(27, 36, 47);
+  font: normal normal normal normal 16px/22.8571434020996px 'Open Sans', sans-serif;
+  outline: rgb(27, 36, 47) none 0px;
+  transition: all 0.5s ease 0s;
+}
+/*#A_2*/
+
+#A_3 {
+  background-position: 0px 0px;
+  box-sizing: border-box;
+  color: rgb(27, 36, 47);
+  display: block;
+  height: 50px;
+  text-decoration: none;
+  width: 50px;
+  perspective-origin: 25px 25px;
+  transform-origin: 25px 25px;
+  background: rgba(0, 0, 0, 0) url(http://www.opensnap.com/sg/race/images/twitter.png) repeat scroll 0px 0px / auto padding-box border-box;
+  border: 0px none rgb(27, 36, 47);
+  font: normal normal normal normal 16px/22.8571434020996px 'Open Sans', sans-serif;
+  outline: rgb(27, 36, 47) none 0px;
+  transition: all 0.5s ease 0s;
+}
+/*#A_3*/
+
+#A_4 {
+  background-position: 0px -50px;
+  box-sizing: border-box;
+  color: rgb(231, 76, 60);
+  display: block;
+  height: 50px;
+  width: 50px;
+  perspective-origin: 25px 25px;
+  transform-origin: 25px 25px;
+  background: rgba(0, 0, 0, 0) url(http://www.opensnap.com/sg/race/images/google.png) repeat scroll 0px -50px / auto padding-box border-box;
+  border: 0px none rgb(231, 76, 60);
+  font: normal normal normal normal 16px/22.8571434020996px 'Open Sans', sans-serif;
+  outline: rgb(231, 76, 60) none 0px;
+  transition: all 0.5s ease 0s;
+}
+/*#A_4*/
+
+
