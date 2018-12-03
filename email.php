@@ -51,8 +51,3 @@
     $result = $mailer->send($message);
 
     header ('Location: voted.php');
-
-
-
-
-
